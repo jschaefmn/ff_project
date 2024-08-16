@@ -17,8 +17,8 @@ try:
   
   username = driver.find_element(By.XPATH, '//*[@id="username"]')
   password = driver.find_element(By.XPATH, '//*[@id="password"]')
-  username.send_keys('schaefy99')
-  password.send_keys('MinnesotaWild24!')
+  username.send_keys('')
+  password.send_keys('')
   
   # submit login form
   login_button = driver.find_element(By.XPATH, '//*[@id="sh-login-button"]')
